@@ -1,0 +1,108 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : km_rtl
+Version: P-2019.03-SP5
+Date   : Mon Jul 27 17:54:30 2020
+****************************************
+
+Operating Conditions: tt0p85v25c   Library: saed32rvt_tt0p85v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: a[8] (input port clocked by vclk)
+  Endpoint: p[0] (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  km_rtl             8000                  saed32rvt_tt0p85v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock vclk (rise edge)                                  0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.10       0.10 f
+  a[8] (in)                                               0.00       0.10 f
+  mul_inst2/U49/Y (AND2X1_RVT)                            0.06       0.16 f
+  U462/Y (XOR2X1_RVT)                                     0.14       0.30 r
+  mul_inst2/addbit[0].bittt/addbit[2].bitt/U3/Y (AO22X1_RVT)
+                                                          0.09       0.39 r
+  mul_inst2/addbit[0].bittt/addbit[3].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       0.47 r
+  mul_inst2/addbit[0].bittt/addbit[4].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       0.55 r
+  mul_inst2/addbit[0].bittt/addbit[5].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       0.63 r
+  mul_inst2/addbit[0].bittt/addbit[6].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       0.71 r
+  U467/Y (XOR2X1_RVT)                                     0.14       0.85 f
+  U443/Y (XOR2X1_RVT)                                     0.14       0.98 r
+  U324/Y (XOR2X1_RVT)                                     0.15       1.13 f
+  U446/Y (XOR2X1_RVT)                                     0.14       1.27 r
+  U327/Y (XOR2X1_RVT)                                     0.15       1.42 f
+  U449/Y (XOR2X1_RVT)                                     0.14       1.55 r
+  U331/Y (XOR2X1_RVT)                                     0.15       1.70 f
+  U453/Y (XOR2X1_RVT)                                     0.14       1.84 r
+  U334/Y (XOR2X1_RVT)                                     0.15       1.99 f
+  U456/Y (XOR2X1_RVT)                                     0.14       2.12 r
+  U307/Y (XOR2X1_RVT)                                     0.19       2.31 f
+  U210/Y (INVX1_RVT)                                      0.09       2.40 r
+  c1_re_inst/sub_inst1/subbit[10].bittt/U4/Y (OR2X1_RVT)
+                                                          0.07       2.47 r
+  c1_re_inst/sub_inst1/subbit[10].bittt/U3/Y (AO22X1_RVT)
+                                                          0.08       2.55 r
+  c1_re_inst/sub_inst1/subbit[11].bittt/U3/Y (AO22X1_RVT)
+                                                          0.08       2.64 r
+  U192/Y (XOR3X1_RVT)                                     0.21       2.85 f
+  c1_re_inst/sub_inst2/subbit[12].bittt/U4/Y (OR2X1_RVT)
+                                                          0.08       2.93 f
+  c1_re_inst/sub_inst2/subbit[12].bittt/U3/Y (AO22X1_RVT)
+                                                          0.07       3.01 f
+  U301/Y (XNOR3X1_RVT)                                    0.21       3.21 f
+  U310/Y (XOR2X1_RVT)                                     0.16       3.37 r
+  U206/Y (XOR2X1_RVT)                                     0.15       3.52 f
+  U128/Y (XOR2X1_RVT)                                     0.14       3.66 r
+  add6/addbit[13].bitt/U3/Y (AO22X1_RVT)                  0.09       3.74 r
+  U79/Y (XOR2X1_RVT)                                      0.16       3.90 f
+  U68/Y (INVX1_RVT)                                       0.08       3.98 r
+  f1_inst/sub_inst1/subbit[3].bittt/U4/Y (OR2X1_RVT)      0.08       4.06 r
+  f1_inst/sub_inst1/subbit[3].bittt/U3/Y (AO22X1_RVT)     0.08       4.14 r
+  f1_inst/sub_inst1/subbit[4].bittt/U3/Y (AO22X1_RVT)     0.08       4.23 r
+  f1_inst/sub_inst1/subbit[5].bittt/U3/Y (AO22X1_RVT)     0.08       4.31 r
+  U51/Y (XOR3X1_RVT)                                      0.21       4.52 f
+  f1_inst/sub_inst2/subbit[6].bittt/U4/Y (OR2X1_RVT)      0.08       4.61 f
+  f1_inst/sub_inst2/subbit[6].bittt/U3/Y (AO22X1_RVT)     0.07       4.68 f
+  U607/Y (AND2X1_RVT)                                     0.07       4.75 f
+  U38/Y (XNOR2X1_RVT)                                     0.13       4.88 r
+  U60/Y (XOR2X1_RVT)                                      0.14       5.02 f
+  U66/Y (XOR2X1_RVT)                                      0.14       5.16 f
+  U90/Y (XOR2X1_RVT)                                      0.15       5.31 r
+  add8/addbit[8].bitt/U3/Y (AO22X1_RVT)                   0.09       5.40 r
+  add8/addbit[9].bitt/U3/Y (AO22X1_RVT)                   0.08       5.48 r
+  add8/addbit[10].bitt/U3/Y (AO22X1_RVT)                  0.08       5.56 r
+  add8/addbit[11].bitt/U3/Y (AO22X1_RVT)                  0.08       5.64 r
+  add8/addbit[12].bitt/U3/Y (AO22X1_RVT)                  0.08       5.72 r
+  U58/Y (XOR2X1_RVT)                                      0.15       5.86 f
+  U120/Y (NAND4X0_RVT)                                    0.07       5.93 r
+  U118/Y (OAI21X1_RVT)                                    0.15       6.08 f
+  U93/Y (INVX1_RVT)                                       0.13       6.22 r
+  U23/Y (AO22X1_RVT)                                      0.10       6.32 r
+  p[0] (out)                                              0.00       6.32 r
+  data arrival time                                                  6.32
+
+  clock vclk (rise edge)                                 10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  output external delay                                  -0.10       9.90
+  data required time                                                 9.90
+  --------------------------------------------------------------------------
+  data required time                                                 9.90
+  data arrival time                                                 -6.32
+  --------------------------------------------------------------------------
+  slack (MET)                                                        3.58
+
+
+1
