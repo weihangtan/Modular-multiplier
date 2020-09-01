@@ -1,0 +1,184 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : mit_rtl
+Version: P-2019.03-SP5
+Date   : Tue Jul 28 14:26:42 2020
+****************************************
+
+Operating Conditions: tt0p85v25c   Library: saed32rvt_tt0p85v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: b[1] (input port clocked by vclk)
+  Endpoint: p[0] (output port clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mit_rtl            8000                  saed32rvt_tt0p85v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock vclk (rise edge)                                  0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.10       0.10 f
+  b[1] (in)                                               0.00       0.10 f
+  mul_inst1/U135/Y (AND2X1_RVT)                           0.07       0.17 f
+  U739/Y (XOR2X1_RVT)                                     0.14       0.31 r
+  mul_inst1/addbit[0].bittt/addbit[2].bitt/U3/Y (AO22X1_RVT)
+                                                          0.09       0.40 r
+  mul_inst1/addbit[0].bittt/addbit[3].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       0.48 r
+  mul_inst1/addbit[0].bittt/addbit[4].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       0.56 r
+  mul_inst1/addbit[0].bittt/addbit[5].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       0.64 r
+  mul_inst1/addbit[0].bittt/addbit[6].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       0.72 r
+  mul_inst1/addbit[0].bittt/addbit[7].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       0.79 r
+  mul_inst1/addbit[0].bittt/addbit[8].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       0.87 r
+  mul_inst1/addbit[0].bittt/addbit[9].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       0.95 r
+  mul_inst1/addbit[0].bittt/addbit[10].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       1.03 r
+  mul_inst1/addbit[0].bittt/addbit[11].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       1.11 r
+  mul_inst1/addbit[0].bittt/addbit[12].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       1.19 r
+  mul_inst1/addbit[0].bittt/addbit[13].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       1.27 r
+  U740/Y (XOR2X1_RVT)                                     0.14       1.41 f
+  U621/Y (XOR2X1_RVT)                                     0.14       1.55 r
+  U412/Y (XOR2X1_RVT)                                     0.15       1.69 f
+  U629/Y (XOR2X1_RVT)                                     0.14       1.83 r
+  U420/Y (XOR2X1_RVT)                                     0.15       1.98 f
+  U637/Y (XOR2X1_RVT)                                     0.14       2.12 r
+  U429/Y (XOR2X1_RVT)                                     0.15       2.26 f
+  U646/Y (XOR2X1_RVT)                                     0.14       2.40 r
+  U437/Y (XOR2X1_RVT)                                     0.15       2.55 f
+  U654/Y (XOR2X1_RVT)                                     0.14       2.69 r
+  U445/Y (XOR2X1_RVT)                                     0.15       2.84 f
+  U662/Y (XOR2X1_RVT)                                     0.14       2.97 r
+  U454/Y (XOR2X1_RVT)                                     0.15       3.12 f
+  U671/Y (XOR2X1_RVT)                                     0.14       3.26 r
+  U462/Y (XOR2X1_RVT)                                     0.15       3.41 f
+  U679/Y (XOR2X1_RVT)                                     0.14       3.54 r
+  U470/Y (XOR2X1_RVT)                                     0.15       3.69 f
+  U687/Y (XOR2X1_RVT)                                     0.14       3.83 r
+  U479/Y (XOR2X1_RVT)                                     0.15       3.98 f
+  U696/Y (XOR2X1_RVT)                                     0.14       4.11 r
+  U487/Y (XOR2X1_RVT)                                     0.15       4.26 f
+  U704/Y (XOR2X1_RVT)                                     0.14       4.40 r
+  U495/Y (XOR2X1_RVT)                                     0.15       4.55 f
+  U712/Y (XOR2X1_RVT)                                     0.14       4.68 r
+  mul_inst1/addbit[12].bittt/addbit[14].bitt/U3/Y (AO22X1_RVT)
+                                                          0.09       4.77 r
+  mul_inst1/addbit[12].bittt/addbit[15].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       4.85 r
+  mul_inst1/addbit[12].bittt/addbit[16].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       4.94 r
+  mul_inst1/addbit[12].bittt/addbit[17].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       5.02 r
+  mul_inst1/addbit[12].bittt/addbit[18].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       5.10 r
+  mul_inst1/addbit[12].bittt/addbit[19].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       5.18 r
+  mul_inst1/addbit[12].bittt/addbit[20].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       5.27 r
+  mul_inst1/addbit[12].bittt/addbit[21].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       5.35 r
+  mul_inst1/addbit[12].bittt/addbit[22].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       5.43 r
+  mul_inst1/addbit[12].bittt/addbit[23].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       5.51 r
+  mul_inst1/addbit[12].bittt/addbit[24].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       5.60 r
+  mul_inst1/addbit[12].bittt/addbit[25].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       5.68 r
+  mul_inst1/addbit[12].bittt/addbit[26].bitt/U1/Y (XOR2X2_RVT)
+                                                          0.17       5.84 f
+  U169/Y (XOR2X1_RVT)                                     0.18       6.02 r
+  mul_inst2/addbit[2].bittt/addbit[26].bitt/U3/Y (AO22X1_RVT)
+                                                          0.09       6.11 r
+  mul_inst2/addbit[2].bittt/addbit[27].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       6.19 r
+  U239/Y (XOR2X1_RVT)                                     0.14       6.33 f
+  U189/Y (XOR2X1_RVT)                                     0.14       6.46 r
+  U80/Y (XOR2X1_RVT)                                      0.15       6.61 f
+  U196/Y (XOR2X1_RVT)                                     0.14       6.75 r
+  U87/Y (XOR2X1_RVT)                                      0.15       6.90 f
+  U201/Y (XOR2X1_RVT)                                     0.14       7.03 r
+  U93/Y (XOR2X1_RVT)                                      0.15       7.18 f
+  U212/Y (XOR2X1_RVT)                                     0.14       7.32 r
+  U97/Y (XOR2X1_RVT)                                      0.15       7.47 f
+  U215/Y (XOR2X1_RVT)                                     0.14       7.60 r
+  mul_inst2/addbit[12].bittt/addbit[28].bitt/U3/Y (AO22X1_RVT)
+                                                          0.09       7.69 r
+  mul_inst2/addbit[12].bittt/addbit[29].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       7.77 r
+  mul_inst2/addbit[12].bittt/addbit[30].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       7.85 r
+  mul_inst2/addbit[12].bittt/addbit[31].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       7.93 r
+  mul_inst2/addbit[12].bittt/addbit[32].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       8.01 r
+  mul_inst2/addbit[12].bittt/addbit[33].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       8.09 r
+  mul_inst2/addbit[12].bittt/addbit[34].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       8.17 r
+  mul_inst2/addbit[12].bittt/addbit[35].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       8.25 r
+  mul_inst2/addbit[12].bittt/addbit[36].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       8.33 r
+  mul_inst2/addbit[12].bittt/addbit[37].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       8.41 r
+  mul_inst2/addbit[12].bittt/addbit[38].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       8.49 r
+  mul_inst2/addbit[12].bittt/addbit[39].bitt/U3/Y (AO22X1_RVT)
+                                                          0.08       8.56 r
+  U336/Y (XOR2X1_RVT)                                     0.16       8.73 f
+  U238/Y (XOR2X1_RVT)                                     0.17       8.89 r
+  add1/addbit[13].bitt/U3/Y (AO22X1_RVT)                  0.09       8.98 r
+  add1/addbit[14].bitt/U3/Y (AO22X1_RVT)                  0.08       9.06 r
+  U116/Y (XOR2X1_RVT)                                     0.14       9.20 f
+  U36/Y (XOR2X1_RVT)                                      0.14       9.33 r
+  add2/addbit[15].bitt/U3/Y (AO22X1_RVT)                  0.09       9.42 r
+  add2/addbit[16].bitt/U3/Y (AO22X1_RVT)                  0.08       9.50 r
+  add2/addbit[17].bitt/U3/Y (AO22X1_RVT)                  0.08       9.58 r
+  add2/addbit[18].bitt/U3/Y (AO22X1_RVT)                  0.08       9.66 r
+  add2/addbit[19].bitt/U3/Y (AO22X1_RVT)                  0.08       9.74 r
+  add2/addbit[20].bitt/U3/Y (AO22X1_RVT)                  0.08       9.82 r
+  add2/addbit[21].bitt/U3/Y (AO22X1_RVT)                  0.08       9.90 r
+  add2/addbit[22].bitt/U3/Y (AO22X1_RVT)                  0.08       9.98 r
+  add2/addbit[23].bitt/U3/Y (AO22X1_RVT)                  0.08      10.06 r
+  add2/addbit[24].bitt/U3/Y (AO22X1_RVT)                  0.08      10.14 r
+  add2/addbit[25].bitt/U3/Y (AO22X1_RVT)                  0.08      10.22 r
+  U58/Y (XOR2X1_RVT)                                      0.15      10.36 f
+  sub3/subbit[26].bittt/U4/Y (OR2X1_RVT)                  0.07      10.43 f
+  sub3/subbit[26].bittt/U3/Y (AO22X1_RVT)                 0.07      10.50 f
+  U334/Y (XNOR3X1_RVT)                                    0.19      10.69 f
+  U781/Y (NOR4X1_RVT)                                     0.15      10.85 r
+  U57/Y (NAND4X0_RVT)                                     0.21      11.06 f
+  U45/Y (INVX1_RVT)                                       0.21      11.27 r
+  U23/Y (AO22X1_RVT)                                      0.11      11.38 r
+  p[0] (out)                                              0.00      11.38 r
+  data arrival time                                                 11.38
+
+  clock vclk (rise edge)                                 12.00      12.00
+  clock network delay (ideal)                             0.00      12.00
+  output external delay                                  -0.10      11.90
+  data required time                                                11.90
+  --------------------------------------------------------------------------
+  data required time                                                11.90
+  data arrival time                                                -11.38
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.52
+
+
+1

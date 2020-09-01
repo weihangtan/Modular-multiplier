@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : mit_rtl
+Version: P-2019.03-SP5
+Date   : Tue Jul 28 14:26:42 2020
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_tt0p85v25c (File: /usr/commercial_amd64/synopsys/libraries/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_tt0p85v25c.db)
+
+Number of ports:                           42
+Number of nets:                          1470
+Number of cells:                         1442
+Number of combinational cells:           1442
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         41
+Number of references:                      16
+
+Combinational area:               4836.106153
+Buf/Inv area:                       52.099520
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:             738.298152
+
+Total cell area:                  4836.106153
+Total area:                       5574.404306
+1
