@@ -2,7 +2,7 @@
 First, we need to use our  program to generate the prime that will satisfy the requirements in *Section.III.B*. Also, the specific bit-length need to be defined in range of $v$, which is shown below:
 
 ```python
-for v in range(11,13):
+for v in range(15,17):
 ```
 
 If we want to generate the NTT-frendly primes, please define parameter `n = 1024` as well. 
