@@ -7,15 +7,15 @@ for v in range(11,13):
 
 If we want to generate the NTT-frendly primes, please define parameter `n = 1024` as well. 
 
-For example, if we want a $24$-bit prime, just simply define `range(11,13)`.
+For example, if we want a $32$-bit prime, just simply define `range(15,17)`.
 
 Then, based on the generated parameter $v1$ and $v2$, the parameters in the top-level module "km_rtl.v" can be defined as below:
 
 ```verilog
-parameter v = 12;
-parameter v1 = 3;
-parameter v2 = 2;
-parameter Q = 24'd16777213;//2^(2*) - 2^3 + 2^2 + 1
+parameter v = 16;
+parameter v1 = 13;
+parameter v2 = 12;
+parameter Q = 32'd4294955009;//2^(2*16) - 2^13 - 2^12 + 1
 ```
 
 #### 
