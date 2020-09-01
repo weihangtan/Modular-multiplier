@@ -1,0 +1,57 @@
+Loading db file '/usr/commercial_amd64/synopsys/libraries/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_tt0p85v25c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : mul_and_reduce_pipe
+Version: P-2019.03-SP5
+Date   : Tue Jul 28 15:17:43 2020
+****************************************
+
+
+Library(s) Used:
+
+    saed32rvt_tt0p85v25c (File: /usr/commercial_amd64/synopsys/libraries/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_tt0p85v25c.db)
+
+
+Operating Conditions: tt0p85v25c   Library: saed32rvt_tt0p85v25c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+mul_and_reduce_pipe    16000             saed32rvt_tt0p85v25c
+
+
+Global Operating Voltage = 0.85 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  = 316.8722 uW   (80%)
+  Net Switching Power  =  78.2644 uW   (20%)
+                         ---------
+Total Dynamic Power    = 395.1366 uW  (100%)
+
+Cell Leakage Power     = 424.6465 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational    316.8728           78.2644        4.2465e+08          819.7826  ( 100.00%)
+--------------------------------------------------------------------------------------------------
+Total            316.8728 uW        78.2644 uW     4.2465e+08 pW       819.7826 uW
+1
