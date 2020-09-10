@@ -9,7 +9,7 @@ If we want to generate the NTT-frendly primes, please define parameter `n = 1024
 
 For example, if we want a $32$-bit prime, just simply define `range(15,17)`.
 
-Then, based on the generated parameter $v1$ and $v2$, the parameters in the top-level module "km_rtl.v" can be defined as below:
+Then, based on the generated parameter $v1$ and $v2$, the parameters of the top-level module "km_rtl.v" in km_RTL file can be defined as below:
 
 ```verilog
 parameter v = 16;
