@@ -9,17 +9,17 @@ Link of the paper: https://ieeexplore.ieee.org/document/9372338
 Thanks to the inherent post-quantum resistant properties, lattice-based cryptography has gained increasing attention in various cryptographic applications recently. To facilitate the practical deployment, efficient hardware architectures are demanded to accelerate the operations and reduce the computational resources, especially for the polynomial multiplication, which is the bottleneck of lattice-based cryptosystems. In this brief, we present a novel high-speed modular multiplier architecture for polynomial multiplication. The proposed architecture employs a  divide  and  conquer  strategy  and  exploits a  special  modulus  to  increase  the  parallelism  and  speed up  the  calculation, while enabling wider applications across various cryptosystems.  The experimental results show that our design achieves around 27% and 39% reduction on the area consumption and delay, respectively, compared to prior works.
 
 # Description
-First, we need to use our  program to generate the prime that will satisfy the requirements in *Section.III.B*. Also, the specific bit-length need to be defined in range of v, which is shown below:
+First, we need to use our  program to generate the prime that will satisfy the requirements in *Section.III.B*. Also, the specific bit-length needs to be defined in the range of v, which is shown below:
 
 ```python
 for v in range(15,17):
 ```
 
-If we want to generate the NTT-frendly primes, please define parameter `n = 1024` as well. 
+If we want to generate the NTT-friendly primes, please define the parameter for polynomial degree `n = 1024` as well. 
 
-For example, if we want a 32-bit prime, just simply define `range(15,17)`.
+For example, if we want a 32-bit prime (i.e., 2v = 32), just simply define `range(15,17)`.
 
-Then, based on the generated parameter v1 and v2, the parameters of the top-level module "km_rtl.v" in km_RTL file can be defined as below:
+Then, based on the generated parameters v1 and v2, the parameters of the top-level module "km_rtl.v" in the km_RTL file can be defined as below:
 
 ```verilog
 parameter v = 16;
